@@ -7,6 +7,7 @@ const cors = require('cors')
 app.use(morgan(':method :url :body'))
 app.use(express.json())
 app.use(cors())
+app.use(express.static('build'))
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
