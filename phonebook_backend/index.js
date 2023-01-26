@@ -131,7 +131,7 @@ morgan.token('body', req => {
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
-    console.log(`Sample app listening at http://localhost:${PORT}`)
+    console.log(`Server running on port ${PORT}`)
 })
 
 
